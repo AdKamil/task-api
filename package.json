@@ -1,0 +1,31 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "simple ecommerce api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "Kamil Grząba",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dataloader": "^1.4.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1",
+    "graphql-resolvers": "^0.3.3",
+    "graphql-tools": "^4.0.4",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.9",
+    "sequelize-cli": "^5.5.0"
+  }
+}
