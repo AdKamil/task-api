@@ -10,6 +10,11 @@ export default `
     updatedAt: String!
   }
 
+  extend type Query {
+    allProducts: [Product!]!
+    getProduct(id: Int!): Product!
+  }
+
   extend type Mutation {
     createProduct(
       name: String!,
