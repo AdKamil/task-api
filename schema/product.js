@@ -4,6 +4,7 @@ export default `
     name: String!
     description: String!
     image: String!
+    imageBig: String!
     quantity: Int!
     pricePln: Int!
     createdAt: String!
@@ -20,6 +21,7 @@ export default `
       name: String!,
       description: String!,
       image: String!,
+      imageBig: String!,
       quantity: Int!,
       pricePln: Int!,
     ): Product
@@ -28,6 +30,7 @@ export default `
       name: String!,
       description: String!,
       image: String!,
+      imageBig: String!,
       quantity: Int!,
       pricePln: Int!,
     ): [Int!]
